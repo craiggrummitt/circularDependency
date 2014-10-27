@@ -13,6 +13,8 @@
 		B9D3502B19FEEE0000F2FA79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D3502A19FEEE0000F2FA79 /* Images.xcassets */; };
 		B9D3502E19FEEE0000F2FA79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D3502C19FEEE0000F2FA79 /* LaunchScreen.xib */; };
 		B9D3503A19FEEE0000F2FA79 /* SingletonTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3503919FEEE0000F2FA79 /* SingletonTesterTests.swift */; };
+		B9D3504419FEEE4200F2FA79 /* SingletonA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3504319FEEE4200F2FA79 /* SingletonA.swift */; };
+		B9D3504619FEEFED00F2FA79 /* SingletonB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3504519FEEFED00F2FA79 /* SingletonB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B9D3503319FEEE0000F2FA79 /* SingletonTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D3503819FEEE0000F2FA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9D3503919FEEE0000F2FA79 /* SingletonTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTesterTests.swift; sourceTree = "<group>"; };
+		B9D3504319FEEE4200F2FA79 /* SingletonA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonA.swift; sourceTree = "<group>"; };
+		B9D3504519FEEFED00F2FA79 /* SingletonB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				B9D3502A19FEEE0000F2FA79 /* Images.xcassets */,
 				B9D3502C19FEEE0000F2FA79 /* LaunchScreen.xib */,
 				B9D3502119FEEE0000F2FA79 /* Supporting Files */,
+				B9D3504319FEEE4200F2FA79 /* SingletonA.swift */,
+				B9D3504519FEEFED00F2FA79 /* SingletonB.swift */,
 			);
 			path = SingletonTester;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D3504619FEEFED00F2FA79 /* SingletonB.swift in Sources */,
 				B9D3502619FEEE0000F2FA79 /* ViewController.swift in Sources */,
+				B9D3504419FEEE4200F2FA79 /* SingletonA.swift in Sources */,
 				B9D3502419FEEE0000F2FA79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
