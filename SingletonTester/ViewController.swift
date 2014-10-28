@@ -12,9 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var singletonA = SingletonA()
+        var singletonA = SingletonA.sharedInstance
         println(singletonA.test)
-        println(singletonA.singletonB.test)
     }
 
     override func didReceiveMemoryWarning() {
