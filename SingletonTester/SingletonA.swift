@@ -17,4 +17,7 @@ class SingletonA {
     }
     var test = "I'm singleton A"
     var singletonB = SingletonB.sharedInstance
+    init() {
+        singletonB.singletonA = self
+    }
 }

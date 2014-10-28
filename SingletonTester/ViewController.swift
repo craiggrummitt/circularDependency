@@ -13,14 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var singletonA = SingletonA.sharedInstance
+        var singletonB = SingletonB.sharedInstance
         println(singletonA.test)
+        println(singletonB.test)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

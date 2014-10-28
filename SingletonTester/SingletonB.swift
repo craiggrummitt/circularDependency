@@ -15,6 +15,6 @@ class SingletonB {
         }
         return StaticStruct.instance
     }
-    var singletonA = SingletonA.sharedInstance
+    var singletonA:SingletonA!
     var test = "I am SingletonB"
 }
